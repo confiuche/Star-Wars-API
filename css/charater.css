@@ -1,0 +1,179 @@
+.main-page img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('../images/star-wars-the-rise-of-skywalker-theatrical-poster.jpeg') no-repeat center center/cover;
+    height: 657px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+/* .character-container{
+    width: 80%;
+    position: absolute;
+    background: #fff;
+    align-items: center;
+}
+
+.demo-img{
+    position: relative;
+}
+.demo-img img{
+    width: 15%;
+} */
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    top: 70px;
+    left: 0;
+    height: 80vh;
+    width: 70%;
+    background-color: transparent;
+    padding: 50px 30px;
+    border-radius: 3px;
+}
+
+/* .top {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+} */
+
+.top-left {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.top-right {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 5px
+}
+
+.top-right h6 {
+    letter-spacing: 3px;
+}
+
+.top-right h6 .fa-sun {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.search-area {
+    margin-top: 15px;
+}
+
+.search-area>.find {
+    border-radius: 10px;
+    background: #082150;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    height: 40px
+}
+
+.search-area>.find .fa-search {
+    margin: 5px 0px 0px 5px;
+    color: #318CE7;
+}
+
+input[type='search'] {
+    background-color: transparent;
+    border: none;
+    width: 190px;
+    margin-left: 16px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(197, 194, 194);
+}
+
+.btnSearch {
+    margin-left: 100px;
+    margin-top: -3px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #318CE7;
+    color: white;
+    cursor: pointer;
+}
+
+.contents {
+    width: 100%;
+    height: 320px;
+    border-radius: 8px;
+    padding: 17px;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* .user-img {
+    border-radius: 50%;
+    background-color: white;
+    width: 30%;
+    margin: 10px 260px;
+    height: 80%;
+} */
+
+.user-img>img {
+    width: 10%;
+    border-radius: 30%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.user-data {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.user-data ul {
+    list-style: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* 
+.user-data li:nth-child(2) {
+    font-size: 15px;
+    color: #318CE7;
+    margin-top: 8px;
+}
+
+.user-data ul li:nth-child(3) {
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(185, 179, 179);
+} */
+
+p {
+    color: rgb(212, 205, 205);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
